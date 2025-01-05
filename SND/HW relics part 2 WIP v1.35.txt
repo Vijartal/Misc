@@ -1,0 +1,105 @@
+/echo make sure chocobo is summoned and AD Unsync is on.
+/echo pandora's setting to auto summon chocobo is expected
+/echo ampador hard 2nd boss needs manual assistance for mechanics
+/echo version 1.35
+/echo update notes 1.35 mostly improved tolerances for slow classes and lag loading zones 
+/autoduty cfg Unsynced true
+
+/wait 10
+/ad queue Snowcloak
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue Sastasha (Hard)
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue The Sunken Temple of Qarn (Hard)
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 10
+
+/target Ardashir
+/vnav movetarget
+/wait 2
+/at y
+/interact
+/wait 10
+/at n
+
+/ad queue The Keeper of the Lake
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue The Wanderer's Palace (Hard)
+/wait 8
+/ad start
+/echo as of the 5th of jan 2025 the autoduty path may bug out on some classes skipping flags
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue Amdapor Keep (Hard)
+/wait 8
+/ad start
+/echo prep to do mechanics on 2nd boss
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 10
+
+/target Ardashir
+/vnav movetarget
+/wait 2
+/at y
+/interact
+/wait 10
+/at n
+
+/ad queue The Dusk Vigil
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue Sohm Al
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue the Aery
+/wait 8
+/ad start
+/echo if dps is to low theres a potential to get stuck on nidhoggs jail mechanics
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue the Vault
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.720>
+/wait 10
+
+/target Ardashir
+/vnav movetarget
+/wait 2
+/at y
+/interact
+/wait 10
+/at n
+
+/tp Helix
+
+/wait 5
+
+/vnav moveto -756.9827 -182.96056 -552.749
+
+/target Ardashird
