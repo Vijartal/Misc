@@ -1,0 +1,23 @@
+/target Ardashir
+/interact
+/wait 1
+/click SelectIconString Entry1
+/wait 1
+/click SelectString Entry3
+/wait 1
+/click SelectString Entry2
+/wait 3
+
+/tp Revenant's Toll
+/wait 10
+/vnav moveto -2.1500728 29 -800.76636
+/wait 30
+/target Cristiana
+/interact
+/wait 1
+/tp helix
+/wait 10
+/vnav moveto -756.9827 -182.96056 -552.749
+/wait 15
+/target Gerolt
+/interact
