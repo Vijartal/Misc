@@ -1,3 +1,5 @@
+/echo needs text advanced to accept quest and skips cutscenes as well as hand in items
+/echo v1.1
 /target Ardashir
 /interact
 /wait 1
