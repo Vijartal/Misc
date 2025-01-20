@@ -1,6 +1,7 @@
 the loop was created using pandora's auto interact with gathering nodes option as well as gatheringbuddy reborn to do a collection list
 order the GB list in priority making sure theres no items of the oposite class
 also avoid grade 4 in a main list as GBR has nodes for them it will try to path too - a fallback list works fine
+-- it may be fine to do the entire thing on a fallback list if you set it up correctly to use skills though i havent tried it.
 if you want to use the cannon just pause visland while its gathering from a node
 
 may still have a few spots that ocasionally hiccup and miss a node if the game/connection/etc lags.
