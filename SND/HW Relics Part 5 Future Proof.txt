@@ -1,0 +1,34 @@
+/echo needs text advanced to accept quest and skips cutscenes as well as hand in items
+/echo v1.0
+/at y
+/target Ardashir
+/interact
+/wait 1
+/click SelectIconString Entry1
+/wait 1
+/click SelectString Entry6
+/wait 1
+/click SelectString Entry2
+/wait 3
+/at n
+
+/tp idyllshire
+/wait 10
+/mount "Company Chocobo"
+/vnav moveto 91.09138 207.11 -3.032053
+/wait 7
+/target Blamprest
+/at y
+/interact
+/wait 3
+/target Blamprest
+/interact
+/wait 3
+
+/tp helix
+/wait 10
+/vnav moveto -756.9827 -182.96056 -552.749
+/wait 15
+/target Ardashir
+/echo unequip weapon
+/echo "/at n" after finishing
