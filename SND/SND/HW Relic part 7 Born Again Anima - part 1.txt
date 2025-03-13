@@ -1,0 +1,58 @@
+/echo make sure chocobo is summoned and AD Unsync is on.
+/echo pandora's setting to auto summon chocobo is expected
+/echo version 1.0
+/echo update notes - none so far
+/autoduty cfg Unsynced true
+
+/vnav moveto -756.9827 -182.96056 -552.749
+/wait 1
+/at y
+/target Ardashir
+/interact
+/wait 1
+/click SelectIconString Entry1
+/wait 1
+/click SelectString Entry7
+/wait 1
+/click SelectString Entry2
+/wait 3
+/at n
+
+
+/wait 10
+/ad queue The Lost City of Amdapor (Hard)
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue The Great Gubal Library (Hard)
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+/wait 2
+/ad queue Sohm Al (Hard)
+/wait 8
+/ad start
+
+/waitaddon _PartyList <maxwait.1200>
+
+/at y
+/target Gerolt
+/interact
+/wait 5
+/vnav moveto -774.34155 -182.99124 -556.595
+/wait 4
+/target Processing Node
+/interact
+/wait 5
+/target Processing Node
+/interact
+/wait 5
+/target Verification Node
+/interact
+/wait 5
+
+/at n
+/echo need to farm light 21 runs of Alexander - The Eyes of the Creator (Savage) works

@@ -1,0 +1,12 @@
+/at y
+/vnav moveto -774.34155 -182.99124 -556.595
+/wait 2
+
+/target Verification Node
+/interact
+/at n
+/vnav moveto -756.9827 -182.96056 -552.749
+/wait 4
+/at y
+/target Gerolt
+/echo /at n
