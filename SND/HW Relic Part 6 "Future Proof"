@@ -23,7 +23,7 @@
 /wait 8
 /target Blamprest
 /interact
-/wait 3
+/wait 8
 
 /tp helix
 /wait 10
