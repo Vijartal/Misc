@@ -20,7 +20,7 @@
 /target Blamprest
 /at y
 /interact
-/wait 3
+/wait 8
 /target Blamprest
 /interact
 /wait 3
