@@ -38,6 +38,7 @@
 
 /waitaddon _PartyList <maxwait.1200>
 
+/wait 5
 /at y
 /target Gerolt
 /interact
@@ -61,3 +62,4 @@
 
 /at n
 /echo need to farm light 21 runs of Alexander - The Eyes of the Creator (Savage) works
+
