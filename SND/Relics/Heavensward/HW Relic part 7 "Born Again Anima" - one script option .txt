@@ -40,6 +40,7 @@
 
 /waitaddon _PartyList <maxwait.1200>
 
+/wait 5
 /at y
 /target Gerolt
 /interact
@@ -203,4 +204,5 @@
 /at y
 /target Gerolt
 /echo /at n
+
 
