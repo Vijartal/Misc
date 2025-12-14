@@ -1,5 +1,5 @@
 
-
+/echo Character Config setting "Hide party list when solo" should be ticked
 /echo make sure chocobo is summoned and AD Unsync is on.
 /echo pandora's setting to auto summon chocobo is expected
 /echo version 1.0
@@ -204,5 +204,6 @@
 /at y
 /target Gerolt
 /echo /at n
+
 
 
